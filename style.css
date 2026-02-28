@@ -1,16 +1,15 @@
-/* ===== RESET & BASE STYLES ===== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* ===== COLOR SCHEME ===== */
+ 
 :root {
-    --base: #f8fafc;     /* background – soft light grey */
-    --contrast: #0f172a;  /* text – deep navy */
-    --accent: #3b82f6;    /* buttons / interactive blue */
-    --card-bg: #ffffff;   /* cards on light base */
+    --base: #f8fafc;     
+    --contrast: #0f172a;  
+    --accent: #3b82f6;    
+    --card-bg: #ffffff;   
     --border-light: #e2e8f0;
 }
 
@@ -24,7 +23,7 @@ body {
     flex-direction: column;
 }
 
-/* ===== LAYOUT CONTAINER ===== */
+ 
 .site-container {
     max-width: 1280px;
     margin: 0 auto;
@@ -32,7 +31,7 @@ body {
     width: 100%;
 }
 
-/* ===== NAVIGATION BAR (TASK 1) ===== */
+ 
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -77,7 +76,7 @@ body {
     padding-bottom: 4px;
 }
 
-/* ===== BUTTONS ===== */
+ 
 .btn {
     display: inline-block;
     background-color: var(--accent);
@@ -90,7 +89,7 @@ body {
     margin-top: 1rem;
 }
 
-/* ===== HOME PAGE (TASK 2) ===== */
+ 
 .home-grid {
     display: flex;
     align-items: center;
@@ -138,7 +137,6 @@ body {
     background: linear-gradient(145deg, #bdd3f0, #a0b9db);
 }
 
-/* ===== CARDS GRID (TASK 3) ===== */
 .page-title {
     font-size: 2.8rem;
     margin: 2rem 0 0.5rem;
@@ -185,7 +183,6 @@ body {
     color: #334155;
 }
 
-/* ===== CONTACT PAGE (TASK 4) ===== */
 .contact-container {
     max-width: 700px;
     margin: 3rem auto;
@@ -209,7 +206,6 @@ body {
     margin-bottom: 2.5rem;
 }
 
-/* ===== UPDATED CONTACT LIST STYLES WITH ICONS ===== */
 .contact-list {
     list-style: none;
     margin: 2.5rem 0;
